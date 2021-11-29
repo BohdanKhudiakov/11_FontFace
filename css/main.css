@@ -1,0 +1,95 @@
+html {
+  background-color: #C9C9C9;
+}
+
+body {
+  color: black;
+  font: normal 400 36px/48px "Roboto";
+  max-width: 1440px;
+  min-width: 375px;
+  margin: auto;
+  pgitadding-bottom: 50px;
+  background-color: white;
+}
+
+.article {
+  margin: 80px 24px 0px 56px;
+}
+.article__title {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.article__title_bold {
+  font-weight: 700;
+}
+.article__paragraph_italic {
+  font-style: italic;
+}
+.article__paragraph_underline {
+  text-decoration: underline;
+}
+.article__paragraph_sup {
+  vertical-align: super;
+  font-size: 20px;
+}
+.article__paragraph_tag-text:before {
+  content: "<";
+}
+.article__paragraph_tag-text:after {
+  content: ">";
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 35px 0px 44px;
+  max-width: 1440px;
+}
+.header__lang {
+  height: 23px;
+  width: 41px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  transform: rotate(-0.15deg);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  cursor: pointer;
+  margin-right: 41px;
+  margin-top: 26px;
+}
+.header__nav {
+  font-size: 20px;
+  line-height: 23px;
+  opacity: 0.2;
+  margin-top: 7px;
+  margin-right: 730px;
+}
+.header__list {
+  display: flex;
+  list-style: none;
+}
+.header__list-item {
+  margin: 0px 5px;
+  flex-wrap: wrap;
+}
+.header__list-item a {
+  text-decoration: none;
+  color: black;
+}
+.header__logo {
+  cursor: pointer;
+}
+.header__logo-img {
+  opacity: 0.2;
+  z-index: 1;
+}
+.header__logo-img-triangle {
+  z-index: 2;
+  margin-left: -48px;
+}
+
+/*# sourceMappingURL=main.css.map */
